@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+      "target": "ES6",
+      "module": "CommonJS",
+      "outDir": "./dist",
+      "rootDir": "./src",
+      "strict": false,
+      "esModuleInterop": true,
+      "skipLibCheck": true,
+      "sourceMap": true,
+      "lib": ["esnext"],
+      "declaration": true
+    },
+    "include": ["src/**/*.ts", "src/blocking.js"],
+    "exclude": ["node_modules"]
+  }
+  
